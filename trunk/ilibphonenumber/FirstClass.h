@@ -10,6 +10,8 @@
 
 
 @interface FirstClass : NSObject {
+	
+	int firstVarible;
 
 }
 
