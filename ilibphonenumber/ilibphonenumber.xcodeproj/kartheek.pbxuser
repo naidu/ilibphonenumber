@@ -30,6 +30,30 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					317,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -52,13 +76,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 369768138;
-			PBXWorkspaceStateSaveDate = 369768138;
+			PBXPerProjectTemplateStateSaveDate = 369769119;
+			PBXWorkspaceStateSaveDate = 369769119;
 		};
 		perUserProjectItems = {
-			EE2929AD160A371F0028DBDF /* PBXTextBookmark */ = EE2929AD160A371F0028DBDF /* PBXTextBookmark */;
-			EE2929AE160A371F0028DBDF /* PBXBookmark */ = EE2929AE160A371F0028DBDF /* PBXBookmark */;
-			EE2929AF160A371F0028DBDF /* PBXTextBookmark */ = EE2929AF160A371F0028DBDF /* PBXTextBookmark */;
+			EE2929BE160A39C80028DBDF = EE2929BE160A39C80028DBDF /* PBXTextBookmark */;
+			EE2929BF160A39C80028DBDF = EE2929BF160A39C80028DBDF /* PBXTextBookmark */;
+			EE2929C0160A39C80028DBDF = EE2929C0160A39C80028DBDF /* PBXTextBookmark */;
+			EE2929DF160A3AF60028DBDF /* PBXTextBookmark */ = EE2929DF160A3AF60028DBDF /* PBXTextBookmark */;
 		};
 		sourceControlManager = EE2929A7160A36EA0028DBDF /* Source Control */;
 		userBuildSettings = {
@@ -73,7 +98,7 @@
 		isSCMEnabled = 0;
 		scmConfiguration = {
 			repositoryNamesForRoots = {
-				"" = "";
+				"" = ilibphonenumber;
 			};
 		};
 	};
@@ -83,40 +108,56 @@
 	};
 	EE2929A9160A37140028DBDF /* FirstClass.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 223}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{42, 0}";
+			sepNavVisRange = "{0, 216}";
 		};
 	};
 	EE2929AA160A37140028DBDF /* FirstClass.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 201}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 237}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 196}";
 		};
 	};
-	EE2929AD160A371F0028DBDF /* PBXTextBookmark */ = {
+	EE2929BE160A39C80028DBDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = EE2929A9160A37140028DBDF /* FirstClass.h */;
-		name = "FirstClass.h: 1";
+		fRef = EE2929AA160A37140028DBDF /* FirstClass.m */;
+		name = "FirstClass.m: 12";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 189;
 		rType = 0;
-		vrLen = 223;
+		vrLen = 196;
 		vrLoc = 0;
 	};
-	EE2929AE160A371F0028DBDF /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = EE2929AA160A37140028DBDF /* FirstClass.m */;
-	};
-	EE2929AF160A371F0028DBDF /* PBXTextBookmark */ = {
+	EE2929BF160A39C80028DBDF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = EE2929AA160A37140028DBDF /* FirstClass.m */;
-		name = "FirstClass.m: 1";
+		fRef = EE2929A9160A37140028DBDF /* FirstClass.h */;
+		name = "FirstClass.h: 4";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 42;
 		rType = 0;
-		vrLen = 201;
+		vrLen = 216;
+		vrLoc = 0;
+	};
+	EE2929C0160A39C80028DBDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE2929A9160A37140028DBDF /* FirstClass.h */;
+		name = "FirstClass.h: 4";
+		rLen = 0;
+		rLoc = 42;
+		rType = 0;
+		vrLen = 216;
+		vrLoc = 0;
+	};
+	EE2929DF160A3AF60028DBDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EE2929A9160A37140028DBDF /* FirstClass.h */;
+		name = "FirstClass.h: 4";
+		rLen = 0;
+		rLoc = 42;
+		rType = 0;
+		vrLen = 216;
 		vrLoc = 0;
 	};
 }
